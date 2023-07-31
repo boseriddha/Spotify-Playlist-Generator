@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+}
+
+body {
+  width: 30%;
+  height: 100vh;
+  margin: auto auto;
+}
+
+.authenticate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  height: inherit;
+}
+
+.authenticate h1 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.authenticate p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.authenticate button {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: 0.75;
+}
+
+.prompt_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+
+.prompt_form input {
+  margin-block: 0.5rem;
+  padding: 5px;
+}
+
+.prompt_form button {
+  margin-top: 0.5rem;
+  padding: 7px 15px 6px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.search_results {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.go_back_btn {
+  margin-top: 10px;
+}
+
+.visit_btn,
+.go_back_btn {
+  width: 70%;
+}
